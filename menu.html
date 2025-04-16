@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu | Simple Canteen</title>
+  <link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+  <div class="menu-container">
+    <h1>Our Menu</h1>
+
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="idli.jpg" alt="Idli">
+        <h2>Idli</h2>
+        <p>Soft steamed rice cakes.</p>
+        <button onclick="addToCart('Idli')">Add to Cart</button>
+      </div>
+
+      <div class="menu-card">
+        <img src="dosa.jpg" alt="Dosa">
+        <h2>Dosa</h2>
+        <p>South Indian crispy crepe.</p>
+        <button onclick="addToCart('Dosa')">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    function addToCart(item) {
+      alert(item + " added to cart!");
+      // Redirect to dummy payment
+      window.location.href = "payment.html";
+    }
+  </script>
+</body>
+</html>
