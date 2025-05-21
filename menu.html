@@ -168,4 +168,7 @@ onclick="addToCart('Vada')">Add to Cart</button>
     function addToCart(itemName) {
       let cart = JSON.parse(localStorage.getItem('canteenCart')) || [];
       cart.push(itemName);
+    localStorage.setItem('canteenCart', JSON.stringify(cart));
+      alert(itemName + " added to cart!");
+    }
 
