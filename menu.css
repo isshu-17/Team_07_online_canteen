@@ -97,4 +97,7 @@ a:hover {
 .cart-link {
   margin-top: 2rem;
 }
+/* === Media Queries === */
+@media (max-width: 768px) {
+  .menu-items {
  
