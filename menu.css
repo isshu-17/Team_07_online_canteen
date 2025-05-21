@@ -106,4 +106,13 @@ a:hover {
  .menu-card {
     width: 90%;
   }
+  .menu-container h1 {
+    font-size: 2rem;
+  }
+}
+
+/* === Utility Classes === */
+.text-center {
+  text-align: center;
+}
 
