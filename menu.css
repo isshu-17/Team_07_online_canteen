@@ -47,4 +47,7 @@ body {
   height: 150px;
 }
 
+/* === Card Text === */
+.menu-card h2 {
+  font-size: 1.5rem;
  
