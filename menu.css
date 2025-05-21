@@ -100,4 +100,8 @@ a:hover {
 /* === Media Queries === */
 @media (max-width: 768px) {
   .menu-items {
+  flex-direction: column;
+    align-items: center;
+  }
+
  
