@@ -72,4 +72,8 @@ cursor: pointer;
 button:hover {
   background-color: #0056b3;
 }
+button:active {
+  transform: scale(0.95);
+}
+
  
