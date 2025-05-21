@@ -164,4 +164,8 @@ onclick="addToCart('Vada')">Add to Cart</button>
     <p>&copy; 2025 Simple Canteen. All rights reserved.</p>
   </footer>
 
+  <script>
+    function addToCart(itemName) {
+      let cart = JSON.parse(localStorage.getItem('canteenCart')) || [];
+      cart.push(itemName);
 
