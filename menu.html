@@ -171,4 +171,7 @@ onclick="addToCart('Vada')">Add to Cart</button>
     localStorage.setItem('canteenCart', JSON.stringify(cart));
       alert(itemName + " added to cart!");
     }
+    // Utility to clear cart (can be called from dev tools)
+    function clearCart() {
+      localStorage.removeItem('canteenCart');
 
