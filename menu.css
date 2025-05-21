@@ -269,4 +269,6 @@ input[type="text"], input[type="email"] {
   transition: opacity 0.3s ease;
   pointer-events: none;
 }
-
+.tooltip:hover::after {
+  opacity: 1;
+}
