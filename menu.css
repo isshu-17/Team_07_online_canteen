@@ -153,4 +153,12 @@ a:hover {
   }
 }
 
+.menu-card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* === Extra Card Variations (Example for future use) === */
+.menu-card.vegan {
+  border: 2px solid green;
+}
 
