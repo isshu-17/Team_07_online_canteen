@@ -224,4 +224,15 @@ input[type="text"], input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+/* === Table Styling (if needed) === */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.table th, .table td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
 
