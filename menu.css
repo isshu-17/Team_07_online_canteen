@@ -53,4 +53,9 @@ body {
 color: #222;
   margin: 0.5rem 0;
 }
+.menu-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
  
