@@ -18,4 +18,8 @@ body {
  color: #333;
   margin-bottom: 1rem;
 }
+/* === Menu Items Grid === */
+.menu-items {
+  display: flex;
+  justify-content: center;
  
