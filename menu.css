@@ -161,4 +161,12 @@ a:hover {
 .menu-card.vegan {
   border: 2px solid green;
 }
+.menu-card.special {
+  border: 2px dashed orange;
+}
+
+/* === Scrollbar Styling (optional aesthetic) === */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
