@@ -26,4 +26,9 @@ body {
   gap: 2rem;
   margin-top: 2rem;
 }
+/* === Menu Card === */
+.menu-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
  
