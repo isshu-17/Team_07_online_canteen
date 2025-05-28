@@ -34,9 +34,9 @@ A dedicated **campus canteen food ordering web app** that simplifies browsing th
 
 | 🏆 Name       | 💻 Role             |  
 |--------------|--------------------|  
-| **Vignesh S** | Backend Developer |  
-| **Rudhreshan S** | Backend Developer |  
 | **Aishwarya A** | Frontend Developer |  
+| **Vignesh S** | Backend Developer |  
+| **Rudhreshan S** | Backend Developer |   
 | **Pallavi S** | Frontend Developer |  
 
 ---
